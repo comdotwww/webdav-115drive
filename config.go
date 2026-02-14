@@ -14,7 +14,7 @@ import (
 type ServerConfig struct {
 	Host string `yaml:"host" mapstructure:"host"`
 	Port int    `yaml:"port" mapstructure:"port"`
-	Path string `yaml:"path" mapstructure:"path"`
+	Path string `yaml:"base_path" mapstructure:"base_path"`
 	User string `yaml:"user" mapstructure:"user"`
 	Pwd  string `yaml:"pwd" mapstructure:"pwd"`
 }
